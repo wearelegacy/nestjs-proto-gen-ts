@@ -32,7 +32,7 @@ message HeroById {
 
 message Hero {
   int32 id = 1;
-  string name = 2;
+  optional string name = 2;
 }
 ```
 
@@ -51,10 +51,10 @@ export namespace hero {
         findOne(data: HeroById, metadata?: Metadata): Observable<Hero>;
     }
     export interface HeroById {
-        id?: number;
+        id: number;
     }
     export interface Hero {
-        id?: number;
+        id: number;
         name?: string;
     }
 }

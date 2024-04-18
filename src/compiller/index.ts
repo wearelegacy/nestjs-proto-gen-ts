@@ -8,6 +8,7 @@ import './handlebars/var-helper';
 import './handlebars/comment-helper';
 import './handlebars/enum-comment-helper';
 import './handlebars/uncapitalize-hepler';
+import './handlebars/optional-helper';
 import './handlebars/type-helper';
 import './handlebars/default-value-helper';
 

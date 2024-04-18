@@ -71,7 +71,7 @@ export interface {{@key}} {
 {{#if comment}}
     {{comment}}
 {{/if}}
-    {{@key}}?: {{type this}};
+    {{@key}}{{optional this}}: {{type this}};
 {{/each}}
 }
 {{#if nested}}
